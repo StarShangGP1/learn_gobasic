@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b9d89f1-5e5b-41c4-82d3-9439c833df91" name="变更" comment="变更">
-      <change afterPath="$PROJECT_DIR$/class08/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/class06/calc/calc_bmi.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/class06/calc/calc_bodyfatratio.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/class06/fatCalc/fatCalc.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class05/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/class05/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class06/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/class06/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/class04/fatCalc/fatCalc.go" beforeDir="false" afterPath="$PROJECT_DIR$/homework/class04/fatCalc/fatCalc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class08/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/class08/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +37,8 @@
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/go.mod" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/class07/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file:///usr/local/go/src/go/types/type.go" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -127,6 +124,13 @@
       <filePath value="$PROJECT_DIR$/homework/class03/linesCalc/linesCalc.go" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Go Build.go build learn_go/homework/class03/linesCalc" />
+      <item itemvalue="Go Build.go build fatCalc.go" />
+      <item itemvalue="Go Build.go build learn_go/class04" />
+      <item itemvalue="Go Build.go build learn_go/class06" />
+      <item itemvalue="Go Build.go build learn_go/homework/class03/fatCalc" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build learn_go/class06" />
