@@ -13,6 +13,6 @@ require (
 )
 
 replace (
-	github.com/armstrongli/go-bmi => ./homework/class08/staging/src/github.com/armstrongli/go-bmi
+	github.com/armstrongli/go-bmi => ./homework/class09/homework01/staging/src/github.com/armstrongli/go-bmi
 	github.com/spf13/cobra => github.com/armstrongli/cobra v1.2.0
 )

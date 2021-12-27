@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b9d89f1-5e5b-41c4-82d3-9439c833df91" name="变更" comment="变更">
-      <change afterPath="$PROJECT_DIR$/class09/main_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/class09/homework01/calc/calc_bmi.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/class09/homework01/calc/calc_faterate.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/class09/homework01/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/class09/homework01/staging/src/github.com/armstrongli/go-bmi/bmi.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/class09/homework01/staging/src/github.com/armstrongli/go-bmi/calc_faterate.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/class09/homework01/staging/src/github.com/armstrongli/go-bmi/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/class09/homework02/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class01/main" beforeDir="false" afterPath="$PROJECT_DIR$/class01/main" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class03/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/class03/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class09/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/class09/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/class03/linesCalc/linesCalc.go" beforeDir="false" afterPath="$PROJECT_DIR$/homework/class03/linesCalc/linesCalc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/class09/main.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,23 +70,23 @@
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/homework/class08" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/homework/class09" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/homework/class09" />
       <recent name="$PROJECT_DIR$/homework/class08" />
       <recent name="$PROJECT_DIR$/class07" />
       <recent name="$PROJECT_DIR$/homework/class07" />
       <recent name="$PROJECT_DIR$/homework/class06" />
-      <recent name="$PROJECT_DIR$/homework/class04" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/homework/class09/homework01" />
       <recent name="$PROJECT_DIR$/homework" />
       <recent name="$PROJECT_DIR$/homework/class06" />
       <recent name="$PROJECT_DIR$/homework/class04/reversalArray" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/homework/class03/fatCalc" />
     </key>
   </component>
   <component name="RunManager" selected="Go Test.TestCase3 in learn_go/class09">
