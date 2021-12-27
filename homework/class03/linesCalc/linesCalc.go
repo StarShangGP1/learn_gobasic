@@ -90,9 +90,9 @@ func inputPoints(p []float64) []float64 {
 	for i, p := range p {
 		i++
 		if i%2 == 0 {
-			fmt.Printf("请输入第%d个点的y:", i)
+			fmt.Printf("请输入第%f个点的y:", i)
 		} else {
-			fmt.Printf("请输入第%d个点的x:", i)
+			fmt.Printf("请输入第%f个点的x:", i)
 		}
 		fmt.Scanln(&p)
 		points = append(points, p)

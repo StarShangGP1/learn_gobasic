@@ -30,7 +30,7 @@ func arr() {
 
 func forLoop() {
 	for i := 0; i < 100; i++ {
-		fmt.Printf("hello, %d\n", i)
+		fmt.Printf("hello, %f\n", i)
 	}
 }
 
