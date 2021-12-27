@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b9d89f1-5e5b-41c4-82d3-9439c833df91" name="变更" comment="变更">
-      <change afterPath="$PROJECT_DIR$/homework/class09/homework01/calc/calc_bmi.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/class09/homework01/calc/calc_faterate.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/class09/homework01/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/class09/homework01/staging/src/github.com/armstrongli/go-bmi/bmi.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/class09/homework01/staging/src/github.com/armstrongli/go-bmi/calc_faterate.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/class09/homework01/staging/src/github.com/armstrongli/go-bmi/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/class09/homework02/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/class09/homework02/calc/calc_bmi.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/class09/homework02/calc/calc_bmi_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/class09/homework02/calc/calc_faterate.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/class09/homework02/calc/calc_faterate_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/class09/homework02/main_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/class09/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/class09/homework02/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/homework/class09/homework02/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,16 +67,16 @@
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/homework/class09" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/homework/class09/homework02" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/homework/class09/homework02" />
       <recent name="$PROJECT_DIR$/homework/class09" />
       <recent name="$PROJECT_DIR$/homework/class08" />
       <recent name="$PROJECT_DIR$/class07" />
       <recent name="$PROJECT_DIR$/homework/class07" />
-      <recent name="$PROJECT_DIR$/homework/class06" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/homework/class09/homework01" />
@@ -89,47 +86,41 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestCase3 in learn_go/class09">
-    <configuration name="go build learn_go/class09" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestHealthSuggest in learn_go/homework/class09/homework02">
+    <configuration name="TestCalcBMI in learn_go/homework/class09/homework02/calc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="learn_gobasic" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="learn_go/class09" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/class09/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build learn_go/homework/class03/fatCalc" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="learn_gobasic" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="learn_go/homework/class03/fatCalc" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/homework/class03/fatCalc/fatCalc.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestCase1 in learn_go/class09" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="learn_gobasic" />
-      <working_directory value="$PROJECT_DIR$/class09" />
+      <working_directory value="$PROJECT_DIR$/homework/class09/homework02/calc" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="learn_go/class09" />
+      <package value="learn_go/homework/class09/homework02/calc" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCase1\E$" />
+      <pattern value="^\QTestCalcBMI\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase2 in learn_go/class09" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCalcBMI in learn_go/homework/class09/homework02/calc02" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="learn_gobasic" />
-      <working_directory value="$PROJECT_DIR$/class09" />
+      <working_directory value="$PROJECT_DIR$/homework/class09/homework02/calc02" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="learn_go/class09" />
+      <package value="learn_go/homework/class09/homework02/calc02" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCase2\E$" />
+      <pattern value="^\QTestCalcBMI\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCalcFatRate in learn_go/homework/class09/homework02/calc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="learn_gobasic" />
+      <working_directory value="$PROJECT_DIR$/homework/class09/homework02/calc" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="learn_go/homework/class09/homework02/calc" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCalcFatRate\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestCase3 in learn_go/class09" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -144,18 +135,32 @@
       <pattern value="^\QTestCase3\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestHealthSuggest in learn_go/homework/class09/homework02" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="learn_gobasic" />
+      <working_directory value="$PROJECT_DIR$/homework/class09/homework02" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="learn_go/homework/class09/homework02" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestHealthSuggest\E$" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Go Build.go build learn_go/class09" />
-      <item itemvalue="Go Build.go build learn_go/homework/class03/fatCalc" />
-      <item itemvalue="Go Test.TestCase1 in learn_go/class09" />
-      <item itemvalue="Go Test.TestCase2 in learn_go/class09" />
       <item itemvalue="Go Test.TestCase3 in learn_go/class09" />
+      <item itemvalue="Go Test.TestCalcBMI in learn_go/homework/class09/homework02/calc" />
+      <item itemvalue="Go Test.TestCalcBMI in learn_go/homework/class09/homework02/calc02" />
+      <item itemvalue="Go Test.TestCalcFatRate in learn_go/homework/class09/homework02/calc" />
+      <item itemvalue="Go Test.TestHealthSuggest in learn_go/homework/class09/homework02" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestHealthSuggest in learn_go/homework/class09/homework02" />
+        <item itemvalue="Go Test.TestCalcFatRate in learn_go/homework/class09/homework02/calc" />
+        <item itemvalue="Go Test.TestCalcBMI in learn_go/homework/class09/homework02/calc" />
+        <item itemvalue="Go Test.TestCalcBMI in learn_go/homework/class09/homework02/calc02" />
         <item itemvalue="Go Test.TestCase3 in learn_go/class09" />
-        <item itemvalue="Go Test.TestCase2 in learn_go/class09" />
-        <item itemvalue="Go Test.TestCase1 in learn_go/class09" />
       </list>
     </recent_temporary>
   </component>
