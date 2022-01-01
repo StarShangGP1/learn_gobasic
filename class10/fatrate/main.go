@@ -1,0 +1,5 @@
+package fatrate
+
+func main() {
+	
+}
