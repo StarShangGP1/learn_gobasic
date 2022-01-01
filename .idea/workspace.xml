@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b9d89f1-5e5b-41c4-82d3-9439c833df91" name="变更" comment="变更">
-      <change afterPath="$PROJECT_DIR$/class10/fatrate/calc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class10/fatrate/fatRateService.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class10/fatrate/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class10/fatrate/person.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class10/fatrate/suggestion.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class10/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class11/fatrates/calc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class11/fatrates/fatRateService.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class11/fatrates/person.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class11/fatrates/suggestion.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class11/fatrates/suggestion_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class11/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,97 +67,97 @@
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/homework/class09/homework02" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/class11/fatrates" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/class11/fatrates" />
+      <recent name="$PROJECT_DIR$/class11" />
       <recent name="$PROJECT_DIR$/homework/class09/homework02" />
       <recent name="$PROJECT_DIR$/homework/class09" />
       <recent name="$PROJECT_DIR$/homework/class08" />
-      <recent name="$PROJECT_DIR$/class07" />
-      <recent name="$PROJECT_DIR$/homework/class07" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/class11" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/homework/class09/homework01" />
       <recent name="$PROJECT_DIR$/homework" />
       <recent name="$PROJECT_DIR$/homework/class06" />
-      <recent name="$PROJECT_DIR$/homework/class04/reversalArray" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build learn_go/class10">
-    <configuration name="go build learn_go/class10" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build learn_go/class11">
+    <configuration name="go build learn_go/class11" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learn_gobasic" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="learn_go/class10" />
+      <package value="learn_go/class11" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/class10/main.go" />
+      <filePath value="$PROJECT_DIR$/class11/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCalcBMI in learn_go/homework/class09/homework02/calc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSuggestion_GetAllSuggestion in learn_go/class11/fatrates" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="learn_gobasic" />
-      <working_directory value="$PROJECT_DIR$/homework/class09/homework02/calc" />
+      <working_directory value="$PROJECT_DIR$/class11/fatrates" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="learn_go/homework/class09/homework02/calc" />
+      <package value="learn_go/class11/fatrates" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCalcBMI\E$" />
+      <pattern value="^\QTestSuggestion_GetAllSuggestion\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCalcBMI in learn_go/homework/class09/homework02/calc02" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSuggestion_GetAllSuggestion/35#25 in learn_go/class11/fatrates" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="learn_gobasic" />
-      <working_directory value="$PROJECT_DIR$/homework/class09/homework02/calc02" />
+      <working_directory value="$PROJECT_DIR$/class11/fatrates" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="learn_go/homework/class09/homework02/calc02" />
+      <package value="learn_go/class11/fatrates" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCalcBMI\E$" />
+      <pattern value="^\QTestSuggestion_GetAllSuggestion\E$/^\Q35#25\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCalcFatRate in learn_go/homework/class09/homework02/calc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSuggestion_GetAllSuggestion/35#26 in learn_go/class11/fatrates" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="learn_gobasic" />
-      <working_directory value="$PROJECT_DIR$/homework/class09/homework02/calc" />
+      <working_directory value="$PROJECT_DIR$/class11/fatrates" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="learn_go/homework/class09/homework02/calc" />
+      <package value="learn_go/class11/fatrates" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCalcFatRate\E$" />
+      <pattern value="^\QTestSuggestion_GetAllSuggestion\E$/^\Q35#26\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestHealthSuggest in learn_go/homework/class09/homework02" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSuggestion_GetAllSuggestion/35#45 in learn_go/class11/fatrates" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="learn_gobasic" />
-      <working_directory value="$PROJECT_DIR$/homework/class09/homework02" />
+      <working_directory value="$PROJECT_DIR$/class11/fatrates" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="learn_go/homework/class09/homework02" />
+      <package value="learn_go/class11/fatrates" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestHealthSuggest\E$" />
+      <pattern value="^\QTestSuggestion_GetAllSuggestion\E$/^\Q35#45\E$" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Test.TestCalcBMI in learn_go/homework/class09/homework02/calc" />
-      <item itemvalue="Go Test.TestCalcBMI in learn_go/homework/class09/homework02/calc02" />
-      <item itemvalue="Go Test.TestCalcFatRate in learn_go/homework/class09/homework02/calc" />
-      <item itemvalue="Go Test.TestHealthSuggest in learn_go/homework/class09/homework02" />
-      <item itemvalue="Go Build.go build learn_go/class10" />
+      <item itemvalue="Go Test.TestSuggestion_GetAllSuggestion in learn_go/class11/fatrates" />
+      <item itemvalue="Go Test.TestSuggestion_GetAllSuggestion/35#26 in learn_go/class11/fatrates" />
+      <item itemvalue="Go Test.TestSuggestion_GetAllSuggestion/35#45 in learn_go/class11/fatrates" />
+      <item itemvalue="Go Test.TestSuggestion_GetAllSuggestion/35#25 in learn_go/class11/fatrates" />
+      <item itemvalue="Go Build.go build learn_go/class11" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build learn_go/class10" />
-        <item itemvalue="Go Test.TestHealthSuggest in learn_go/homework/class09/homework02" />
-        <item itemvalue="Go Test.TestCalcFatRate in learn_go/homework/class09/homework02/calc" />
-        <item itemvalue="Go Test.TestCalcBMI in learn_go/homework/class09/homework02/calc" />
-        <item itemvalue="Go Test.TestCalcBMI in learn_go/homework/class09/homework02/calc02" />
+        <item itemvalue="Go Build.go build learn_go/class11" />
+        <item itemvalue="Go Test.TestSuggestion_GetAllSuggestion in learn_go/class11/fatrates" />
+        <item itemvalue="Go Test.TestSuggestion_GetAllSuggestion/35#25 in learn_go/class11/fatrates" />
+        <item itemvalue="Go Test.TestSuggestion_GetAllSuggestion/35#45 in learn_go/class11/fatrates" />
+        <item itemvalue="Go Test.TestSuggestion_GetAllSuggestion/35#26 in learn_go/class11/fatrates" />
       </list>
     </recent_temporary>
   </component>
