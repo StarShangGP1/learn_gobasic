@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b9d89f1-5e5b-41c4-82d3-9439c833df91" name="变更" comment="变更">
-      <change afterPath="$PROJECT_DIR$/class11/fatrates/FatRateRank.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class11/fatrates/rankItem.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class11/main_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class12/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/class12/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +82,7 @@
       <recent name="$PROJECT_DIR$/homework/class06" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestCase3 in learn_go/class11">
+  <component name="RunManager" selected="Go Build.go build learn_go/class12">
     <configuration name="go build learn_go/class11" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learn_gobasic" />
       <working_directory value="$PROJECT_DIR$" />
@@ -91,6 +90,15 @@
       <package value="learn_go/class11" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/class11/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build learn_go/class12" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="learn_gobasic" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="learn_go/class12" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/class12/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="TestCase1 in learn_go/class11" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -129,32 +137,20 @@
       <pattern value="^\QTestCase3\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSuggestion_GetAllSuggestion in learn_go/class11/fatrates" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="learn_gobasic" />
-      <working_directory value="$PROJECT_DIR$/class11/fatrates" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="learn_go/class11/fatrates" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestSuggestion_GetAllSuggestion\E$" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Go Test.TestSuggestion_GetAllSuggestion in learn_go/class11/fatrates" />
       <item itemvalue="Go Build.go build learn_go/class11" />
       <item itemvalue="Go Test.TestCase1 in learn_go/class11" />
       <item itemvalue="Go Test.TestCase2 in learn_go/class11" />
       <item itemvalue="Go Test.TestCase3 in learn_go/class11" />
+      <item itemvalue="Go Build.go build learn_go/class12" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build learn_go/class12" />
         <item itemvalue="Go Test.TestCase3 in learn_go/class11" />
         <item itemvalue="Go Test.TestCase2 in learn_go/class11" />
         <item itemvalue="Go Test.TestCase1 in learn_go/class11" />
         <item itemvalue="Go Build.go build learn_go/class11" />
-        <item itemvalue="Go Test.TestSuggestion_GetAllSuggestion in learn_go/class11/fatrates" />
       </list>
     </recent_temporary>
   </component>
