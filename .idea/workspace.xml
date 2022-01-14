@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b9d89f1-5e5b-41c4-82d3-9439c833df91" name="变更" comment="变更">
-      <change afterPath="$PROJECT_DIR$/homework/class12/elevator.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/class12/main_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/class12/person.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/class12/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/homework/class12/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class12/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/class12/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/class12/elevator.go" beforeDir="false" afterPath="$PROJECT_DIR$/homework/class12/elevator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/class12/main_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/homework/class12/main_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/class12/person.go" beforeDir="false" afterPath="$PROJECT_DIR$/homework/class12/person.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,16 +66,16 @@
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/class11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/class13" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/class13" />
       <recent name="$PROJECT_DIR$/class11" />
       <recent name="$PROJECT_DIR$/class11/fatrates" />
       <recent name="$PROJECT_DIR$/homework/class09/homework02" />
       <recent name="$PROJECT_DIR$/homework/class09" />
-      <recent name="$PROJECT_DIR$/homework/class08" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/class11" />
@@ -85,24 +86,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Go Test.TestElevatorCase1 in learn_go/homework/class12">
-    <configuration name="go build learn_go/class12" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="learn_gobasic" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="learn_go/class12" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/class12/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build learn_go/homework/class12" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="learn_gobasic" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="learn_go/homework/class12" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/homework/class12/main.go" />
-      <method v="2" />
-    </configuration>
     <configuration name="TestElevatorCase1 in learn_go/homework/class12" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="learn_gobasic" />
       <working_directory value="$PROJECT_DIR$/homework/class12" />
@@ -139,20 +122,44 @@
       <pattern value="^\QTestElevatorCase3\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestElevator_LetsGo3 in learn_go/class13" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="learn_gobasic" />
+      <working_directory value="$PROJECT_DIR$/class13" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="learn_go/class13" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestElevator_LetsGo3\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestElevator_LetsGo4 in learn_go/class13" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="learn_gobasic" />
+      <working_directory value="$PROJECT_DIR$/class13" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="learn_go/class13" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestElevator_LetsGo4\E$" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Go Build.go build learn_go/class12" />
+      <item itemvalue="Go Test.TestElevator_LetsGo3 in learn_go/class13" />
+      <item itemvalue="Go Test.TestElevator_LetsGo4 in learn_go/class13" />
       <item itemvalue="Go Test.TestElevatorCase1 in learn_go/homework/class12" />
       <item itemvalue="Go Test.TestElevatorCase2 in learn_go/homework/class12" />
       <item itemvalue="Go Test.TestElevatorCase3 in learn_go/homework/class12" />
-      <item itemvalue="Go Build.go build learn_go/homework/class12" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Go Test.TestElevatorCase1 in learn_go/homework/class12" />
         <item itemvalue="Go Test.TestElevatorCase2 in learn_go/homework/class12" />
         <item itemvalue="Go Test.TestElevatorCase3 in learn_go/homework/class12" />
-        <item itemvalue="Go Build.go build learn_go/homework/class12" />
-        <item itemvalue="Go Build.go build learn_go/class12" />
+        <item itemvalue="Go Test.TestElevator_LetsGo4 in learn_go/class13" />
+        <item itemvalue="Go Test.TestElevator_LetsGo3 in learn_go/class13" />
       </list>
     </recent_temporary>
   </component>

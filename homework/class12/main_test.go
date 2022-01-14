@@ -25,7 +25,7 @@ func TestElevatorCase1(t *testing.T) {
 func TestElevatorCase2(t *testing.T) {
 
 	floor := []int{1, 2, 3, 4, 5}
-	person := &Person{floorNum: 3}
+	person := &Person{floorNum: []int{3}}
 	currFloor := 1
 	e := &Elevator{floor: floor, person: person, currentFloor: currFloor}
 	if len(e.floor) != 5 {
@@ -35,7 +35,8 @@ func TestElevatorCase2(t *testing.T) {
 		t.Fatalf("电梯不在1层，%d", e.currentFloor)
 	}
 	person.PressTheFloorNumber(e)
-	if e.targetFloor != 3 {
+
+	if e.targetFloor[0] != 3 {
 		t.Fatalf("应该是三楼按电梯，%d", e.targetFloor)
 	}
 	e.Run()
@@ -44,21 +45,43 @@ func TestElevatorCase2(t *testing.T) {
 //案例3
 //• 楼层有5层，电梯在3层。上来一些人后，
 //  目标楼层:4楼、2楼。电梯先向上到4楼，然后转 头到2楼，最后停在2楼。
+//
 //• 楼层有5层，电梯在3层。上来一些人后，
 //  目标楼层:4楼、5楼、2楼。电梯先向上到4楼，然 后到5楼，之后转头到2楼，最后停在2楼。
 func TestElevatorCase3(t *testing.T) {
-	//{
-	//	cf := 3
-	//	f := []int{1, 2, 3, 4, 5}
-	//	p := &Person{floorNum: []int{4, 2}}
-	//	e := &Elevator{currentFloor: cf, floor: f, person: p}
-	//	e.Run()
-	//}
-	//{
-	//	cf := 3
-	//	f := []int{1, 2, 3, 4, 5}
-	//	p := &Person{floorNum: []int{4, 5, 2}}
-	//	e := &Elevator{currentFloor: cf, floor: f, person: p}
-	//	e.Run()
-	//}
+	{
+		floor := []int{1, 2, 3, 4, 5}
+		currFloor := 3
+		person := &Person{floorNum: []int{4, 2}}
+		e := &Elevator{floor: floor, person: person, currentFloor: currFloor}
+		if len(e.floor) != 5 {
+			t.Fatalf("楼层不是5层，%d", e.floor)
+		}
+		if e.currentFloor != 3 {
+			t.Fatalf("电梯不在3层，%d", e.currentFloor)
+		}
+		person.PressTheFloorNumber(e)
+		if !e.SliceEqual([]int{4, 2}, person.floorNum) {
+			t.Fatalf("目标楼层:4、2楼，而不是%d", person.floorNum)
+		}
+		e.Run()
+	}
+
+	{
+		floor := []int{1, 2, 3, 4, 5}
+		currFloor := 3
+		person := &Person{floorNum: []int{4, 5, 2}}
+		e := &Elevator{floor: floor, person: person, currentFloor: currFloor}
+		if len(e.floor) != 5 {
+			t.Fatalf("楼层不是5层，%d", e.floor)
+		}
+		if e.currentFloor != 3 {
+			t.Fatalf("电梯不在3层，%d", e.currentFloor)
+		}
+		person.PressTheFloorNumber(e)
+		if !e.SliceEqual([]int{4, 5, 2}, person.floorNum) {
+			t.Fatalf("目标楼层:4、5、2楼，而不是%d", person.floorNum)
+		}
+		e.Run()
+	}
 }

@@ -63,6 +63,6 @@ func (std *student) voteA(target *student) {
 	target.agree++
 }
 
-func (std *student) voteD(tatget *student) {
-	tatget.disagree++
+func (std *student) voteD(target *student) {
+	target.disagree++
 }
