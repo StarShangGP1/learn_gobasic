@@ -84,3 +84,23 @@ func Test_fatRateSuggestion_GetSuggestion1(t *testing.T) {
 		})
 	}
 }
+
+func Test_BasalMetabolism(t *testing.T) {
+	p := &Person{
+		name:   "小强",
+		sex:    "男",
+		tall:   1.73,
+		weight: 73,
+		age:    26,
+	}
+	calc := &Calc{}
+	calc.BasalMetabolism(p)
+	t.Log(p.bm)
+	//2100 kcal
+	// 制定计划
+	// 一个月减4kg，一周减1kg
+	// 1kg的脂肪等于 7700 kcal 除以7天，每天减少 1100 kcal
+	// 2100-1100=1000 kcal
+	// 1 kcal = 4.184 j; 1000 = 4184 j
+	// 人体组成部分三大要素：蛋白质(40%)400kcal、碳水(40%)400kcal、脂肪(20%)200kcal
+}

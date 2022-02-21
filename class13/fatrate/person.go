@@ -15,6 +15,7 @@ type Person struct {
 
 	bmi     float64
 	fatRate float64
+	bm      float64
 }
 
 func (p *Person) calcBmi() error {

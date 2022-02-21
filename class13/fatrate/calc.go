@@ -24,3 +24,10 @@ func (Calc) FatRate(person *Person) error {
 	person.fatRate = gobmi.CalcFatRate(person.bmi, person.age, person.sex)
 	return nil
 }
+
+// BasalMetabolism 基础代谢
+//[90+4.8X身高+13.4X体重-5.7X年龄]X1.2
+func (Calc) BasalMetabolism(person *Person) error {
+	person.bm = (90 + 4.8*person.tall*100 + 13.4*person.weight - 5.7*float64(person.age)) * 1.2
+	return nil
+}
