@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b9d89f1-5e5b-41c4-82d3-9439c833df91" name="变更" comment="变更">
+      <change afterPath="$PROJECT_DIR$/class17/job.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class17/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class17/trafficControl.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +65,7 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="yiiguxing.plugin.translate" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -80,7 +83,7 @@
       <recent name="$PROJECT_DIR$/homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build learn_go/class16">
+  <component name="RunManager" selected="Go Build.go build learn_go/class17">
     <configuration name="go build learn_go/class14" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learn_gobasic" />
       <working_directory value="$PROJECT_DIR$" />
@@ -108,6 +111,15 @@
       <filePath value="$PROJECT_DIR$/class16/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build learn_go/class17" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="learn_gobasic" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="learn_go/class17" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/class17/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build learn_go/homework/class18" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learn_gobasic" />
       <working_directory value="$PROJECT_DIR$" />
@@ -117,32 +129,20 @@
       <filePath value="$PROJECT_DIR$/homework/class18/writebych.go" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_BasalMetabolism in learn_go/class13/fatrate" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="learn_gobasic" />
-      <working_directory value="$PROJECT_DIR$/class13/fatrate" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="learn_go/class13/fatrate" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTest_BasalMetabolism\E$" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Go Build.go build learn_go/homework/class18" />
       <item itemvalue="Go Build.go build learn_go/class14" />
       <item itemvalue="Go Build.go build learn_go/class15" />
-      <item itemvalue="Go Test.Test_BasalMetabolism in learn_go/class13/fatrate" />
       <item itemvalue="Go Build.go build learn_go/class16" />
+      <item itemvalue="Go Build.go build learn_go/class17" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build learn_go/class16" />
+        <item itemvalue="Go Build.go build learn_go/class17" />
         <item itemvalue="Go Build.go build learn_go/class15" />
+        <item itemvalue="Go Build.go build learn_go/class16" />
         <item itemvalue="Go Build.go build learn_go/class14" />
         <item itemvalue="Go Build.go build learn_go/homework/class18" />
-        <item itemvalue="Go Test.Test_BasalMetabolism in learn_go/class13/fatrate" />
       </list>
     </recent_temporary>
   </component>
