@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b9d89f1-5e5b-41c4-82d3-9439c833df91" name="变更" comment="变更">
-      <change afterPath="$PROJECT_DIR$/class17/job.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class17/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class17/trafficControl.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class18/interface.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class18/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class18/person.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class18/rank.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/class18/fatRateRank/person.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/class18/fatRateRank/tools.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/class18/fatRateRankChannel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/class18/fatRateRankLock.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/class18/草图.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,23 +82,14 @@
       <recent name="$PROJECT_DIR$/class11/fatrates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/homework/class18" />
       <recent name="$PROJECT_DIR$/class13/security" />
       <recent name="$PROJECT_DIR$/class11" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/homework/class09/homework01" />
-      <recent name="$PROJECT_DIR$/homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build learn_go/class17">
-    <configuration name="go build learn_go/class14" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="learn_gobasic" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="learn_go/class14" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/class14/main.go" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build learn_go/homework/class18">
     <configuration name="go build learn_go/class15" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learn_gobasic" />
       <working_directory value="$PROJECT_DIR$" />
@@ -120,29 +117,38 @@
       <filePath value="$PROJECT_DIR$/class17/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build learn_go/class18" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="learn_gobasic" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="learn_go/class18" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/class18/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build learn_go/homework/class18" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learn_gobasic" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
       <package value="learn_go/homework/class18" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/homework/class18/writebych.go" />
+      <filePath value="$PROJECT_DIR$/homework/class18/main.go" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build learn_go/homework/class18" />
-      <item itemvalue="Go Build.go build learn_go/class14" />
       <item itemvalue="Go Build.go build learn_go/class15" />
       <item itemvalue="Go Build.go build learn_go/class16" />
       <item itemvalue="Go Build.go build learn_go/class17" />
+      <item itemvalue="Go Build.go build learn_go/class18" />
+      <item itemvalue="Go Build.go build learn_go/homework/class18" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build learn_go/homework/class18" />
+        <item itemvalue="Go Build.go build learn_go/class18" />
         <item itemvalue="Go Build.go build learn_go/class17" />
         <item itemvalue="Go Build.go build learn_go/class15" />
         <item itemvalue="Go Build.go build learn_go/class16" />
-        <item itemvalue="Go Build.go build learn_go/class14" />
-        <item itemvalue="Go Build.go build learn_go/homework/class18" />
       </list>
     </recent_temporary>
   </component>
