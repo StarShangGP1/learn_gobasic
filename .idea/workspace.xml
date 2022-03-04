@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b9d89f1-5e5b-41c4-82d3-9439c833df91" name="变更" comment="变更">
-      <change afterPath="$PROJECT_DIR$/class18/interface.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/class18/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class18/person.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class18/rank.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/class18/fatRateRank/person.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/class18/fatRateRank/tools.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/class18/fatRateRankChannel.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/class18/fatRateRankLock.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/class18/草图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class19/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class22/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class22/test.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +42,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/go.mod" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/class07/main.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/class18/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file:///usr/local/go/src/go/types/type.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/class22/main.go" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -89,7 +87,16 @@
       <recent name="$PROJECT_DIR$/homework/class09/homework01" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build learn_go/homework/class18">
+  <component name="RunManager" selected="Go Build.go build learn_go/class18">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="learn_gobasic" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="learn_gobasic" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build learn_go/class15" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learn_gobasic" />
       <working_directory value="$PROJECT_DIR$" />
@@ -135,6 +142,16 @@
       <filePath value="$PROJECT_DIR$/homework/class18/main.go" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="learn_gobasic" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <package value="learn_gobasic" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Go Build.go build learn_go/class15" />
       <item itemvalue="Go Build.go build learn_go/class16" />
@@ -144,8 +161,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build learn_go/homework/class18" />
         <item itemvalue="Go Build.go build learn_go/class18" />
+        <item itemvalue="Go Build.go build learn_go/homework/class18" />
         <item itemvalue="Go Build.go build learn_go/class17" />
         <item itemvalue="Go Build.go build learn_go/class15" />
         <item itemvalue="Go Build.go build learn_go/class16" />
