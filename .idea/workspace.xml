@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b9d89f1-5e5b-41c4-82d3-9439c833df91" name="变更" comment="变更" />
+    <list default="true" id="0b9d89f1-5e5b-41c4-82d3-9439c833df91" name="变更" comment="变更">
+      <change afterPath="$PROJECT_DIR$/class/class22/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/class23/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,10 +38,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/go.mod" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/class07/main.go" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/class18/main.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/class/class07/main.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/class/class18/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file:///usr/local/go/src/go/types/type.go" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/class22/main.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/class/class22/main.go" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -73,14 +77,14 @@
       <recent name="$PROJECT_DIR$/class11" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/class/class23" />
+      <recent name="$PROJECT_DIR$/class" />
       <recent name="$PROJECT_DIR$/homework/class18" />
       <recent name="$PROJECT_DIR$/class13/security" />
       <recent name="$PROJECT_DIR$/class11" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/homework/class09/homework01" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build learn_go/class21">
+  <component name="RunManager" selected="Go Build.go build learn_go/class/class22">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="learn_gobasic" />
       <working_directory value="$PROJECT_DIR$" />
@@ -126,13 +130,13 @@
       <filePath value="$PROJECT_DIR$/class21/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build learn_go/homework/class18" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build learn_go/class/class22" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learn_gobasic" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="learn_go/homework/class18" />
+      <package value="learn_go/class/class22" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/homework/class18/main.go" />
+      <filePath value="$PROJECT_DIR$/class/class22/main.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -147,18 +151,18 @@
     </configuration>
     <list>
       <item itemvalue="Go Build.go build learn_go/class18" />
-      <item itemvalue="Go Build.go build learn_go/homework/class18" />
       <item itemvalue="Go Build.go build learn_go/class19" />
       <item itemvalue="Go Build.go build learn_go/class20" />
       <item itemvalue="Go Build.go build learn_go/class21" />
+      <item itemvalue="Go Build.go build learn_go/class/class22" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build learn_go/class/class22" />
         <item itemvalue="Go Build.go build learn_go/class21" />
         <item itemvalue="Go Build.go build learn_go/class20" />
         <item itemvalue="Go Build.go build learn_go/class19" />
         <item itemvalue="Go Build.go build learn_go/class18" />
-        <item itemvalue="Go Build.go build learn_go/homework/class18" />
       </list>
     </recent_temporary>
   </component>
