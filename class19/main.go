@@ -150,6 +150,7 @@ func rangeLink(root *LinkNode) {
 
 // tree -------------------------------
 // 树 由节点、关联关系形成的有序的、分层的、树状结构的结构
+// 左边最小，右边最大
 
 type TreeNode struct {
 	data  int
