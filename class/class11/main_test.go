@@ -1,7 +1,7 @@
 package main
 
 import (
-	"learn_go/class11/fatrates"
+	"learn_go/class/class11/fatrates"
 	"testing"
 )
 

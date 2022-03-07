@@ -2,11 +2,9 @@ package main
 
 import (
 	"fmt"
-	"learn_go/class07/calc"
-
 	"github.com/spf13/cobra"
+	calc2 "learn_go/class/class07/calc"
 	// learn_go_tools "learn.go.tools"
-
 )
 
 func main() {
@@ -30,8 +28,8 @@ func main() {
 			fmt.Println("weight: ", weight)
 			fmt.Println("age: ", age)
 			// 计算
-			bmi := calc.CalcBMI(tall, weight)
-			fatRate := calc.CalcBodyFatRatio(sex, age, bmi)
+			bmi := calc2.CalcBMI(tall, weight)
+			fatRate := calc2.CalcBodyFatRatio(sex, age, bmi)
 			fmt.Println("fatRate: ", fatRate)
 			// 评估结果
 			// todo
