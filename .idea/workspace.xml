@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b9d89f1-5e5b-41c4-82d3-9439c833df91" name="变更" comment="变更">
-      <change afterPath="$PROJECT_DIR$/class/class25/gormStudy.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/class24/fatRateRank.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/class24/personalInformation.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/sorting/customSort.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/class24/calc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/class24/file.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/class24/input_from_std.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/class24/saveRecord.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/class23/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/class/class23/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/class24/fatRateRank.go" beforeDir="false" afterPath="$PROJECT_DIR$/homework/class24/fatRateRank.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/class24/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/homework/class24/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/class24/personalInformation.go" beforeDir="false" afterPath="$PROJECT_DIR$/homework/class24/personalInformation.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pkg/fatRate/rank.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/fatRate/rank.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pkg/format/saveRecord.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/format/saveRecord.go" afterDir="false" />
     </list>
@@ -70,37 +74,28 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/class/class25" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/homework/class24/Tools" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/homework/class24/Tools" />
       <recent name="$PROJECT_DIR$/class/class25" />
       <recent name="$PROJECT_DIR$/pkg/fatRate" />
       <recent name="$PROJECT_DIR$/class21" />
       <recent name="$PROJECT_DIR$/homework/class18" />
-      <recent name="$PROJECT_DIR$/class13/fatrate" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/homework/class24" />
+      <recent name="$PROJECT_DIR$/homework/class24/fatRateHW" />
       <recent name="$PROJECT_DIR$/pkg/apis" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/class/class23" />
-      <recent name="$PROJECT_DIR$/class" />
-      <recent name="$PROJECT_DIR$/homework/class18" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build learn_gobasic/class/class24">
-    <configuration name="go build learn_go/class20" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="learn_gobasic" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="learn_go/class20" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/class20/mian.go" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build learn_gobasic/homework/class24">
     <configuration name="go build learn_go/class21" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learn_gobasic" />
       <working_directory value="$PROJECT_DIR$" />
@@ -137,20 +132,29 @@
       <filePath value="$PROJECT_DIR$/class/class24/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build learn_gobasic/homework/class24" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="learn_gobasic" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="learn_gobasic/homework/class24" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/homework/class24/main.go" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Go Build.go build learn_go/class20" />
       <item itemvalue="Go Build.go build learn_go/class21" />
       <item itemvalue="Go Build.go build learn_go/class/class22" />
       <item itemvalue="Go Build.go build learn_gobasic/class/class23" />
       <item itemvalue="Go Build.go build learn_gobasic/class/class24" />
+      <item itemvalue="Go Build.go build learn_gobasic/homework/class24" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build learn_gobasic/homework/class24" />
         <item itemvalue="Go Build.go build learn_gobasic/class/class24" />
         <item itemvalue="Go Build.go build learn_gobasic/class/class23" />
         <item itemvalue="Go Build.go build learn_go/class/class22" />
         <item itemvalue="Go Build.go build learn_go/class21" />
-        <item itemvalue="Go Build.go build learn_go/class20" />
       </list>
     </recent_temporary>
   </component>
