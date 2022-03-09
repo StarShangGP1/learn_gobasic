@@ -11,21 +11,21 @@ import (
 	"os"
 )
 
-type record struct {
+type Record struct {
 	filePath         string
 	yamlFilePath     string
 	protobufFilePath string
 }
 
-func NewRecord(filePath string) *record {
-	return &record{
+func (r *Record) NewRecord(filePath string) *Record {
+	return &Record{
 		filePath:         filePath,
 		yamlFilePath:     filePath + ".yaml",
 		protobufFilePath: filePath + ".proto.base64",
 	}
 }
 
-func (r *record) SavePInfo(pInfo *apis.PersonalInformation) error {
+func (r *Record) SavePInfo(pInfo *apis.PersonalInformation) error {
 	{
 		data, err := json.Marshal(pInfo)
 		if err != nil {
@@ -63,7 +63,7 @@ func (r *record) SavePInfo(pInfo *apis.PersonalInformation) error {
 	return nil
 }
 
-func (r *record) WriteFileWithJson(data []byte) error {
+func (r *Record) WriteFileWithJson(data []byte) error {
 	file, err := os.OpenFile(r.filePath, os.O_CREATE|os.O_APPEND|os.O_WRONLY, 0777)
 	if err != nil {
 		fmt.Println("无法打开文件", r.filePath, "错误信息是：", err)
@@ -77,7 +77,7 @@ func (r *record) WriteFileWithJson(data []byte) error {
 	return nil
 }
 
-func (r *record) WriteFileWithYaml(data []byte) error {
+func (r *Record) WriteFileWithYaml(data []byte) error {
 	file, err := os.OpenFile(r.yamlFilePath, os.O_CREATE|os.O_APPEND|os.O_WRONLY, 0777)
 	if err != nil {
 		fmt.Println("无法打开文件", r.yamlFilePath, "错误信息是：", err)
@@ -92,7 +92,7 @@ func (r *record) WriteFileWithYaml(data []byte) error {
 	return nil
 }
 
-func (r *record) WriteFileWithProtobuf(data []byte) error {
+func (r *Record) WriteFileWithProtobuf(data []byte) error {
 	file, err := os.OpenFile(r.protobufFilePath, os.O_CREATE|os.O_APPEND|os.O_WRONLY, 0777)
 	if err != nil {
 		fmt.Println("无法打开文件", r.yamlFilePath, "错误信息是：", err)
