@@ -23,7 +23,8 @@ func caseTwo() {
 	input := &fatRate.InputFromStd{}
 	calc := &fatRate.Calc{}
 	rank := &fatRate.Rank{}
-	records := format.NewRecord(filePath)
+	record := format.Record{}
+	records := record.NewRecord(filePath)
 
 	pInfo := input.GetInputFake()
 	if err := records.SavePInfo(pInfo); err != nil {
