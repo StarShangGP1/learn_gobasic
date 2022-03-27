@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b9d89f1-5e5b-41c4-82d3-9439c833df91" name="变更" comment="变更">
-      <change afterPath="$PROJECT_DIR$/class/class26/chat/client/mian.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/class26/chat/server/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/class26/fatrate/client/interface.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/class26/fatrate/client/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/class26/fatrate/server/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/class26/fatrate/server/rank.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/class29/circle.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/class29/client/crclient.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/class29/client/interface.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/class29/interface/interface.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/class29/server/circle.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/class29/server/dbcircle.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/class29/server/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/apis/circle.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/apis/circle.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/apis/types.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/apis/types.pb.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,25 +74,25 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/class/class26/fatrate/server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/homework/class29" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/homework/class29" />
       <recent name="$PROJECT_DIR$/class/class26/fatrate/server" />
       <recent name="$PROJECT_DIR$/homework/class24/Tools" />
       <recent name="$PROJECT_DIR$/class/class25" />
       <recent name="$PROJECT_DIR$/pkg/fatRate" />
-      <recent name="$PROJECT_DIR$/class21" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pkg/apis" />
+      <recent name="$PROJECT_DIR$/homework/class29/pkg" />
       <recent name="$PROJECT_DIR$/homework/class24" />
       <recent name="$PROJECT_DIR$/homework/class24/fatRateHW" />
-      <recent name="$PROJECT_DIR$/pkg/apis" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/class/class23" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build learn_gobasic/class/class27">
