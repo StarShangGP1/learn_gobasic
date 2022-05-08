@@ -1,0 +1,94 @@
+syntax = "proto3";
+option go_package = ".;proto";
+import "google/protobuf/empty.proto";
+
+service ChatService {
+  // 注册
+  rpc RegisterUser(RegisterUserInfo) returns (User) {};
+  // 登陆
+  rpc Login(LoginInfo) returns (LoginResponse) {};
+  // 查看所有用户
+  rpc GetAllUsers(PageSize) returns(UserOnLineList) {};
+  // 查看已经登陆的用户
+  rpc GetOnLineUser(google.protobuf.Empty) returns(UserOnLineList) {};
+  // 注销退出的客户端
+  rpc UnRegisterClient(User) returns(google.protobuf.Empty) {};
+  // 聊天记录返回
+  rpc ChattingRecords(Connect) returns(RecordsResponses) {};
+
+  // 查看未读聊天记录
+  rpc LoadUnreadRecords(User) returns(RecordsResponses) {};
+
+  // 保存未读聊天记录
+  rpc SaveUnreadRecords(Connect) returns(google.protobuf.Empty) {};
+
+  // 创建聊天通道
+  rpc CreateChatStream(stream Connect) returns (stream Message) {};
+  // 广播消息
+  rpc BroadcastMessage(Message) returns (User) {};
+}
+
+message PageSize {
+  int32 Pn = 1;
+  int32 PSize = 2;
+}
+
+message UserOnLineList {
+  repeated User data = 1;
+  int32 total = 2;
+}
+
+message chatRecords {
+  string sender = 1;
+  string receiver = 2;
+  string message = 3;
+}
+
+message RecordsResponses {
+  repeated chatRecords data = 1;
+}
+
+message User {
+  string account = 1;
+  string nickname = 2;
+}
+
+message UserListResponse {
+  int32 total = 1;
+  repeated User data = 2;
+}
+
+message Message {
+  string id = 1;
+  User user = 2;
+  string message = 3;
+  string timestamp = 4;
+}
+
+message Connect {
+  User user = 1;
+  bool active = 2;
+  repeated string chattingWith = 3;
+  string message = 4;
+}
+
+message RegisterUserInfo {
+  string nickname = 1;
+  string password = 2;
+}
+
+message PageInfo {
+  uint32 pn = 1;
+  uint32 pSize = 2;
+}
+
+message LoginInfo {
+  string account = 1;
+  string password = 2;
+}
+
+message LoginResponse {
+  bool is_login = 1;
+  string status = 2;
+  string token = 3;
+}
